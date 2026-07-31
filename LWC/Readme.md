@@ -1,38 +1,64 @@
-🚀 Placement Management System (LWC)
----
-📌 What is LWC?
+# 🚀 Placement Management System (LWC)
 
-Lightning Web Components (LWC) is Salesforce's modern framework used to build fast and reusable user interface components using HTML, JavaScript, and CSS.
----
-📌 What did you build?
+## 📌 What is LWC?
 
-I built a simple Placement Management System that includes:
+Lightning Web Components (LWC) is Salesforce's modern UI framework used to build fast, lightweight, and reusable user interface components. It is based on standard web technologies such as **HTML, JavaScript, and CSS**, making development easier, more efficient, and aligned with modern web standards. LWC components can communicate with Apex to retrieve and display Salesforce data.
 
-Welcome Page
-Student Details
-Welcome Message Button
-Application Status
-Placement Dashboard
----
-📌 Which file contains HTML?
-
-The .html file contains the user interface (UI) of the component.
 ---
 
-📌 Which file contains JavaScript?
+## 📌 What did you build?
 
-The .js file contains the component logic, variables, and button click functionality.
+In this project, I built a simple **Placement Management System** using Lightning Web Components. The application includes:
+
+* 🏠 Welcome Page
+* 👨‍🎓 Student Details
+* 👋 Welcome Message Button
+* 📋 Application Status
+* 📊 Placement Dashboard
+
+The dashboard displays today's date, the number of companies, available jobs, and applications submitted. Currently, these values are hard-coded and can be connected to Apex in future enhancements.
+
 ---
 
-📌 What did you learn today?
-Creating Lightning Web Components
-Data Binding
-Event Handling
-Using HTML and JavaScript in LWC
-Deploying components to Salesforce Lightning Pages
-💻 Technologies Used
-Salesforce
-Lightning Web Components (LWC)
-HTML
-JavaScript
-CSS
+## 📌 Which file contains HTML?
+
+The **`.html`** file contains the user interface (UI) of the component. It is used to create the page layout, display text, buttons, and other visual elements that users interact with.
+
+---
+
+## 📌 Which file contains JavaScript?
+
+The **`.js`** file contains the component's business logic. It is responsible for creating variables, handling button click events, updating data dynamically, and communicating with Apex when required.
+
+---
+
+## 📌 What did you learn today?
+
+During this hands-on session, I learned:
+
+* ✅ Creating Lightning Web Components
+* ✅ Understanding the structure of an LWC
+* ✅ Using HTML, JavaScript, and CSS together
+* ✅ Displaying data using Data Binding
+* ✅ Handling button click events using JavaScript
+* ✅ Deploying components to Salesforce Lightning Pages
+* ✅ Building a simple user interface for a Salesforce application
+
+---
+
+## 💻 Technologies Used
+
+* Salesforce Platform
+* Lightning Web Components (LWC)
+* HTML
+* JavaScript
+* CSS
+* Visual Studio Code
+* Salesforce CLI
+* Lightning App Builder
+
+---
+
+## 📌 Future Enhancements
+
+In the next phase, the Placement Management System will be enhanced by connecting the Lightning Web Components with **Apex** and **SOQL** to retrieve real-time data from Salesforce instead of using hard-coded values.
